@@ -10,6 +10,10 @@ const route = router.get('/', (req, res, next) => {
     })
 })
 
-app.use('/', route)
+const create = router.post('/', (req, res, next) => {
+    res.status(201).send()
+})
 
+app.use('/', route)
+app.use('/products', route)
 module.exports = app
