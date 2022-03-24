@@ -1,14 +1,25 @@
 {
-  "name": "api",
+  "name": "dev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "dev": "bin/server.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baltieri7/dev.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baltieri7/dev/issues"
+  },
+  "homepage": "https://github.com/baltieri7/dev#readme",
   "dependencies": {
     "debug": "^4.3.4",
     "express": "^4.17.3",
