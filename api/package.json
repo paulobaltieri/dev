@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/baltieri7/dev#readme",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "debug": "^4.3.4",
     "express": "^4.17.3",
     "http": "^0.0.1-security"

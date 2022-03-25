@@ -51,8 +51,7 @@ function onError(error) {
             break;
         case 'EADDRINUSE':
             console.error(bind + 'is already in use')
-            process.exit(1);
-            break;
+            process.exit(1)
         default:
             throw error
 
