@@ -7,7 +7,7 @@ const router = express.Router()
 //Carregar as Rotas
 
 const indexRoute = require('./routes/index-route.js')
-const productRoute = require('./routes/product')
+const productRoute = require('./routes/product-router')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
