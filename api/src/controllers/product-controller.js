@@ -1,5 +1,4 @@
 exports.post = (req, res, next) => {
-    console.log('teste')
     res.status(201).send({
         prod: "metodo post",
         item: req.body
